@@ -367,6 +367,7 @@ img{
 /*==================== BUTTONS ====================*/
 .button{
     display: inline-block;
+    font-family: var(--body-font);
     background-color: var(--first-color);
     color: #FFF;
     padding: 1rem;
@@ -387,6 +388,7 @@ img{
 .button--flex{
     display: inline-flex;
     align-items: center;
+    border: 0;
 }
 .button--small{
     padding: .75rem 1rem;
